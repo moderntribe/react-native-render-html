@@ -408,6 +408,7 @@ export default class HTML extends PureComponent {
             ptSize,
             tagsStyles,
             textWrapperProps,
+            renderersProps,
         } = props;
 
         return RNElements && RNElements.length ? RNElements.map((element, index) => {
